@@ -127,5 +127,20 @@
   <div class="disc">fxlance — инженерные услуги разработки ПО. Не является инвестиционной рекомендацией или финансовой услугой. Торговля на финансовых рынках связана с риском потери капитала.</div>
 </div>
 
+<div class="chatpop" id="chatpop" hidden>
+  <span class="x" id="chatx">✕</span>
+  <b>Обсудить задачу</b>
+  <p>Опишите, что хотите автоматизировать, — ответим в Telegram в течение дня. ТЗ и оценка бесплатны.</p>
+  <a class="cta" href="https://t.me/imyavel" target="_blank" rel="noopener">Открыть Telegram — @imyavel</a>
+</div>
+<button class="chatfab" id="chatfab" aria-label="Написать в Telegram">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M2.7 11.2c-1-.4-.9-1.6.1-1.9L20.4 3c.9-.3 1.8.5 1.5 1.4l-4.8 16.3c-.3 1-1.6 1.1-2.1.2l-3.2-5.8-5.9 3.4c-.7.4-1.6-.2-1.4-1l1.1-4.6 9.6-7.7-11.2 6.5-2.3-.5z"/></svg>
+</button>
+<script>
+  var f=document.getElementById('chatfab'),p=document.getElementById('chatpop');
+  f.addEventListener('click',function(){p.hidden=!p.hidden});
+  document.getElementById('chatx').addEventListener('click',function(){p.hidden=true});
+</script>
+
 </body>
 </html>

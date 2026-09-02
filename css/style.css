@@ -75,6 +75,15 @@ footer a{color:var(--mut);text-decoration:none;border-bottom:1px solid transpare
 footer a:hover{color:var(--cyan);border-bottom-color:var(--cyan)}
 .disc{margin-top:18px;font-size:12px;color:#5f6d84;border-top:1px solid var(--line);padding:14px 48px 26px}
 
+.chatfab{position:fixed;right:26px;bottom:26px;width:62px;height:62px;border-radius:50%;background:var(--grad);display:flex;align-items:center;justify-content:center;cursor:pointer;border:none;box-shadow:0 6px 24px rgba(0,0,0,.55);z-index:60}
+.chatfab:hover{transform:scale(1.06)}
+.chatfab svg{width:28px;height:28px;fill:#04231c;margin-left:-3px}
+.chatpop{position:fixed;right:26px;bottom:102px;width:290px;background:var(--panel2);border:1px solid var(--line);border-radius:14px;padding:20px;z-index:60;box-shadow:0 10px 40px rgba(0,0,0,.6);color:var(--txt)}
+.chatpop b{font-size:15.5px}
+.chatpop p{color:var(--mut);font-size:13.5px;margin:8px 0 14px;line-height:1.5}
+.chatpop a.cta{display:block;text-align:center;text-decoration:none}
+.chatpop .x{position:absolute;top:10px;right:14px;color:var(--mut);cursor:pointer;font-size:16px}
+
 @media (max-width:1120px){
   .site{margin:12px 12px 40px}
 }
@@ -105,5 +114,8 @@ footer a:hover{color:var(--cyan);border-bottom-color:var(--cyan)}
   h2{font-size:22px}
   .grid,.steps,.why{grid-template-columns:1fr}
   footer{padding:24px 16px;gap:22px}
-  .disc{padding:14px 16px 22px}
+  .disc{padding:14px 16px 88px}
+  .chatfab{right:16px;bottom:16px;width:54px;height:54px}
+  .chatfab svg{width:25px;height:25px}
+  .chatpop{right:16px;bottom:82px;width:min(290px,calc(100vw - 32px))}
 }

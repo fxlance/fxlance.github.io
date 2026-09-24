@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+<script>try{if(!localStorage.getItem('fxlang'))localStorage.setItem('fxlang','ru')}catch(e){}</script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>fxlance — торговые роботы и AI-автоматизация на заказ</title>
@@ -30,6 +31,7 @@
       <a href="#cases">Кейсы</a>
       <a href="#faq">FAQ</a>
     </nav>
+    <div class="lang"><a href="/" lang="en" hreflang="en">EN</a> | <a class="on" href="/ru/" lang="ru" hreflang="ru">RU</a></div>
     <a class="cta" href="https://t.me/imyavel" target="_blank" rel="noopener">Обсудить задачу</a>
   </header>
 
@@ -119,7 +121,7 @@
   <footer>
     <div><b>Контакты</b>Telegram: <a href="https://t.me/imyavel" target="_blank" rel="noopener">@imyavel</a><br>mql5: <a href="https://www.mql5.com/ru/users/antfx" target="_blank" rel="noopener">профиль AntFX</a><br>GitHub: <a href="https://github.com/fxlance" target="_blank" rel="noopener">fxlance</a></div>
     <div><b>Разделы</b><a href="#services">Услуги</a> · <a href="#tools">Инструменты</a> · <a href="#cases">Кейсы</a> · <a href="#faq">FAQ</a></div>
-    <div><b>Языки</b>RU (сейчас) · EN (скоро)</div>
+    <div><b>Языки</b><span class="lang"><a href="/" lang="en" hreflang="en">EN</a> | <a class="on" href="/ru/" lang="ru" hreflang="ru">RU</a></span></div>
   </footer>
   <div class="disc">fxlance — инженерные услуги разработки ПО. Не является инвестиционной рекомендацией или финансовой услугой. Торговля на финансовых рынках связана с риском потери капитала.</div>
 </div>
@@ -137,6 +139,7 @@
   var f=document.getElementById('chatfab'),p=document.getElementById('chatpop');
   f.addEventListener('click',function(){p.hidden=!p.hidden});
   document.getElementById('chatx').addEventListener('click',function(){p.hidden=true});
+  Array.prototype.forEach.call(document.querySelectorAll('.lang a'),function(a){a.addEventListener('click',function(){try{localStorage.setItem('fxlang',a.hreflang)}catch(e){}a.href=a.getAttribute('href').split('#')[0]+location.hash})});
 </script>
 
 </body>

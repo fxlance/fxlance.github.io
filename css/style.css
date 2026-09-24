@@ -58,6 +58,7 @@ h2{font-size:26px;margin:0 0 8px}
 .n{width:26px;height:26px;border-radius:50%;background:var(--grad);color:#04231c;font-weight:800;font-size:14px;display:flex;align-items:center;justify-content:center}
 .pay{margin-top:22px;background:var(--panel2);border:1px solid var(--line);border-radius:12px;padding:16px 20px;font-size:14px;color:var(--mut)}
 .pay b{color:var(--txt)}
+.card p a,.pay a,.pay a b,.sub a{color:var(--cyan)}
 
 .tools .card small{color:var(--cyan);font-size:12px}
 .soon{opacity:.55}

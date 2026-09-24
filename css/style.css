@@ -89,6 +89,9 @@ footer a:hover{color:var(--cyan);border-bottom-color:var(--cyan)}
 
 .ympx{position:absolute;left:-9999px}
 
+@media (min-width:761px){
+  #cases .grid{grid-auto-rows:1fr}
+}
 @media (max-width:1120px){
   .site{margin:12px 12px 40px}
 }

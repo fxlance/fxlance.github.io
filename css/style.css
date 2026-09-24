@@ -51,7 +51,7 @@ h2{font-size:26px;margin:0 0 8px}
 .card.ai{border-color:#2a4d6e;background:linear-gradient(180deg,#12203a,#101a2e)}
 .tag{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.5px;color:#04231c;background:var(--grad);border-radius:4px;padding:2px 7px;margin-left:8px;vertical-align:2px}
 
-.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.steps{display:grid;grid-template-columns:repeat(5,1fr);gap:16px}
 .step{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px}
 .step b{display:block;font-size:15px;margin:6px 0 6px}
 .step small{color:var(--mut);font-size:13px;line-height:1.5;display:block}

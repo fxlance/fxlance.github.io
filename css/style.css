@@ -87,6 +87,8 @@ footer a:hover{color:var(--cyan);border-bottom-color:var(--cyan)}
 .chatpop a.cta{display:block;text-align:center;text-decoration:none}
 .chatpop .x{position:absolute;top:10px;right:14px;color:var(--mut);cursor:pointer;font-size:16px}
 
+.ympx{position:absolute;left:-9999px}
+
 @media (max-width:1120px){
   .site{margin:12px 12px 40px}
 }

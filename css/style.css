@@ -10,8 +10,6 @@ img{max-width:100%}
 
 .site{max-width:1080px;margin:12px auto 40px;background:var(--bg);color:var(--txt);border-radius:14px;overflow:hidden;box-shadow:0 8px 40px rgba(0,0,0,.5)}
 
-.uc{background:repeating-linear-gradient(45deg,#e8b84b,#e8b84b 14px,#131a2e 14px,#131a2e 28px);color:#fff;text-align:center;font-weight:700;font-size:13px;padding:7px;letter-spacing:.5px;text-shadow:0 1px 3px #000}
-
 header{display:flex;align-items:center;gap:24px;padding:14px 28px;border-bottom:1px solid var(--line)}
 header img{height:44px;display:block}
 header .logo{display:block;line-height:0}
